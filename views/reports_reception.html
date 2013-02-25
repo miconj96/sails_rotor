@@ -1,0 +1,31 @@
+<script src="/javascripts/jquery-ui/jquery.ui.datepicker.js"></script>
+<link rel="stylesheet" href="/stylesheets/jquery/jquery.ui.all.css">
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></a>
+			<div class="brand"></div>
+			<div class="btn-group pull-right">
+				<a class="btn-mini dropdown-toggle" data-toggle="dropdown" href="/dologout">Sign Out</a>
+			</div>
+			<div class="nav-collapse">
+				<ul class="nav">
+					<li>
+						<a href="/roster">Roster</a>
+					</li>
+					<li>
+						<a href="/rotor">Rotor</a>
+					</li>
+					<li class="active">
+						<a href="#">Reports</a>
+					</li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+</div>
+<div style="margin-left: 30px">Name : <input type="text" id="txt_name" value="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Tour Start : <input type="text" id="txt_startdate" value="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Tour End : <input type="text" id="txt_enddate" value="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button id="btn_search" onclick="doreportsearch();" class="search">Search</button></div>
+<div id="div_report"></div>

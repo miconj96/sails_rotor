@@ -1,0 +1,10 @@
+<div><h3>
+	Rotor&nbsp;|&nbsp;
+	<a href='/dologout'>Logout</a>
+</h3></div>
+<div>Message Board <input type="button" id="btn_openeditboard" value="Edit" /><span id="span_board"></span></div>
+<div id="loaddiv"><img src='/images/loading.gif' /></div>
+<div id="orglist" style="width:40%; float:left;"></div><div id="tourlist" style="width:20%; float:left;"></div><div id="portallist" style="width:20%; float:left;"></div>
+<div style="clear:both;"></div>
+<marquee direction="left" id="desc" ></marquee>
+<div id="div_boardeditor" style="display: none; position: fixed; top: 200px; left: 40%; z-index:999; border: 1px solid #666; background-color:white;"><textarea id="boardcontent" style="width:250px; height: 150px;"></textarea><div><input type="button" id="btn_saveboardcontent" value="Save" /><input type="button" id="btn_closeboard" value="Close" /></div></div>

@@ -1,0 +1,305 @@
+body {
+	padding-top: 60px;
+	cursor:default; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+a {
+  color: #00B7FF;
+  cursor: pointer;
+}
+ul{
+
+	list-style:none;
+}
+
+.user_col_name{
+	width:150px;
+	float:left;
+}
+.user_col_password{
+	width:150px;
+	float:left;
+}
+.user_col_groupname{
+	width:150px;
+	float:left;
+}
+.user_col_status{
+	width:150px;
+	float:left;
+}
+.user_col_buttons{
+	width:150px;
+	float:left;
+}
+.clear_div{
+	clear:both;
+	line-height:0px;
+	margin: 0 !important;
+	padding:0 !important;
+}
+marquee {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 35px;
+	line-height: 40px;
+	background-color: black;
+	color: #CC0;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	border-top-color: #999;
+	margin-bottom: 20px;
+}
+
+
+			.brand {
+				background-repeat: no-repeat;
+				background-image: url(../images/RotorLogo.png);
+				width:150px;
+				height:20px;
+				margin-top:5px;
+			}
+
+			ol,ul,li {
+			padding:0px;
+			margin:0px;
+
+			}
+
+			.portal {
+				margin: 0.2% !important;
+				border: 1px solid #e7e7e7;
+				padding:0px;
+				}
+
+
+			button {color:#FFF; }
+			.alpha { margin-left: 0; }
+			.omega { margin-right: 0; }
+			.portal-list li {padding:0px 2px;}
+			.portal-list li:hover {background:yellow;cursor:default;}
+			ol { margin:1px 0px 0px 2px;color:gray;list-style-position: inside;}
+
+			ul.portal-list li {list-style:none;}
+			.line h2 {
+
+			background-color: #1f8d00;
+			}
+
+			.presence h2 {
+
+			background-color: #555;
+			}
+
+			h2 {
+			font-family: sans-serif;
+			color: white;
+			font-size: 10px ;
+			line-height: 14px;
+			padding:0px;
+			width:100%;
+			}
+			h2 span {margin:4px;}
+
+			.portal5 {
+				min-height: 600px;
+				height:600px;
+			}
+			.portal1 {
+				min-height: 100px;
+				height:100px;
+			}
+
+			.portal2 {
+				height:299px;
+			}
+			.portal3 {
+				min-height: 250px;
+				height:250px;
+			}
+			.portal4 {
+				height:534px;
+			}
+			#rotor .direct-in h2,#rotor .direct-in button {
+			background:#009933;
+			}
+			button.available {
+				background:#009933;
+			}
+			button.overage {
+				background:#555;
+			}
+			button.sick {
+				background:#0F2299;
+			}
+			button.cmoveabel{
+				background:#009933;
+			}
+			button.remove{
+				background:#FF0000;
+			}
+			button.create{
+				background:#FF0000;
+			}
+			
+			button.ginfo{
+				background:#FF0000;
+			}
+			button.beback{
+				background:#FF0000;
+			}
+			button.qlife{
+				background:#FF0000;
+			}
+			button.directtour{
+				background:#FF0000;
+			}
+			button.inhousetour{
+				background:#FF0000;
+			}
+			button.managertour{
+				background:#FF0000;
+			}
+			button.explorertour{
+				background:#FF0000;
+			}
+			button.movein{
+				background:#009933;
+			}
+			button.openmanager{
+				background:#009933;
+			}
+			button.managercancelbutton{
+				background:#FF0000;
+			}
+			button.managerassignbutton{
+				background:#009933;
+			}
+			button.portalmovewithschedule{
+				background:#009933;
+			}
+			button.portalmovewithschedule{
+				background:#009933;
+			}
+			button.closescheduletimediv {
+				background:#FF0000;
+			}
+			button.editmessage {
+				background: #FF0000;
+				margin: -6px 5px 0 1px;
+				height: 20px;
+				padding: 0 5px;
+				font-size: 12px;
+			}
+			button.search {
+				background: #009933;
+				margin-top: -4px;
+			}
+			button:hover {
+				opacity: 0.6;
+			}
+
+
+			#rotor .direct-in .portal {
+			border-color:#009933;
+			border:1px solid;
+			}
+			.btn-mini {padding:1px;margin:0px;font-size:10px;line-height: 10px;}
+			.unavailable {background:#FF0000;}
+
+			.in-house-tour,.direct-tour {}
+			#in{background-color:#009933;padding-left:10px;padding-right:10px;}
+			#a{background-color:#009933;}
+			#un{background-color:#FF0000;padding-left:10px;padding-right:10px;float:right;}
+			#u{background-color:#FF0000;}
+			#g{background-color:#FFCC00;}
+			#t{background-color:#003399;}
+			#tt{background-color:#003399;}
+			#iht{background-color:#33599A;}
+			#b{background-color:#6600CC;}
+			#m{background-color:#0066CC;}
+			#o{background-color:#666666;}
+			#r{background-color:#FF6600;}
+			#s{background-color:#000000;}
+
+			#div_report table tbody tr:nth-child(odd) {
+				background-color: #F0F5FF;
+			}
+			#div_report table tbody tr:nth-child(odd):hover {
+				background-color: #E0F0FF;
+			}
+			#div_report table tbody tr:nth-child(even) {
+				background-color: #FFFFFF;
+			}
+			#div_report table tbody tr:nth-child(even):hover {
+				background-color: #E0F0FF;
+			}
+			#div_report table td {
+				padding: 3px 6px;
+			}
+			#div_report table thead tr {
+				background-color: #009933;
+				color: #FFFFFF;
+			}
+			#div_report table{ 
+				margin: 10px 20px;
+			}
+
+#userlist li:first-child {
+	background-color: #009933;
+	color: #FFFFFF;
+}
+
+#userlist li:nth-child(2n+3) {
+	background-color: #E0F0FF;
+}
+
+#userlist li div{
+	padding: 3px 6px;
+}
+
+#userlist li button.editbutton{
+	font-size:12px;
+	height: 22px;
+	line-height: 18px;
+	background-color: #009933;
+}
+#userlist li button.deletebutton{
+	font-size:12px;
+	height: 22px;
+	line-height: 18px;
+	background-color: #FF0000;
+}
+
+#edituser > div {
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0, 0, 0, .3 );
+}
+
+#createuser > div {
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0, 0, 0, .3 );
+}
+
+.usertable {
+	margin: 0 auto;
+	width:300px;
+	top: 20%;
+	position:relative;
+	background-color: #F0F0F0;
+	border-radius:5px;
+	box-shadow: 6px 6px 15px 0px #222222;
+}
+.usertable td {
+	padding: 5px 7px;
+}
